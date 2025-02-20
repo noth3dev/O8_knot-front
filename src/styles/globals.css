@@ -1,0 +1,28 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+@import url('https://fonts.googleapis.com/css2?family=08KNOT&display=swap');
+
+body {
+    font-family: 'Pretendard', sans-serif;
+}
+
+.font-08KNOT {
+    font-family: '08KNOT', sans-serif;
+}
+
+.loader {
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-left-color: #ffffff;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
